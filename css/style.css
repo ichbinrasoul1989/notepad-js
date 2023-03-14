@@ -1,0 +1,31 @@
+body{
+    direction: rtl;
+    height: 100vh;
+}
+
+#heading h1{
+    font-size: 3rem;
+}
+
+li{
+    margin: 10px 0px 0px 50px;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.remove-note,
+.remove-note:hover{
+    float:left;
+    cursor: pointer;
+    color: brown;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}

@@ -1,1 +1,2 @@
-# notepad-js
+# my-notepad
+notepad-project

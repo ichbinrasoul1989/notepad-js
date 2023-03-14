@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <title>دفترچه یادداشت</title>
+</head>
+<body class="bg-info">
+
+    <div id="heading" class="d-flex justify-content-center align-items-center
+    flex-column">
+        <h1>دفترچه یادداشت</h1>
+        <hr>
+    </div>
+    <div id="content">
+
+        <div class="my-form container-fluid col-6">
+            <form id="form">
+                <label for="text-area" class="form-label">یادداشت جدید بنویس:</label>
+                <div class="mb-3 col-12">
+                <textarea class="form-control" id="text-area" rows="7"></textarea>
+                </div>
+                <button id="btn-save" type="submit" class="btn btn-danger col-12">دخیره یادداشت</button>
+            </form>
+        </div>
+
+        <div class="col-6 note-list">
+            <h6>یادداشت های من</h6>
+            <div id="note-list"></div>
+        </div>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
